@@ -1,2 +1,2 @@
-# django-backend
+# transit-spring-backend
 Django backend server
