@@ -79,15 +79,15 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql',
 
-        'NAME': '<db_name>',
+        'NAME': 'transitspring_dev',
 
-        'USER': '<db_username>',
+        'USER': 'postgres',
 
-        'PASSWORD': '<password>',
+        'PASSWORD': 'postgres',
 
-        'HOST': '<db_host>',
+        'HOST': 'localhost',
 
-        'PORT': '<db_port>',
+        'PORT': 5433,
 
     }
 

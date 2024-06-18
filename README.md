@@ -9,4 +9,5 @@ Django backend server
 
  # start postgres in docker
  This compose file assumes you have a folder named `/var/lib/postgresql/data/` in your host directory.
-  `docker compose up`
+ Make sure that you have docker running and that port 5432 is free.
+  `docker compose up -d`
