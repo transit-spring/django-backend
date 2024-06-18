@@ -11,3 +11,12 @@ Django backend server
  This compose file assumes you have a folder named `/var/lib/postgresql/data/` in your host directory.
  Make sure that you have docker running and that port 5432 is free.
   `docker compose up -d`
+
+# transit-spring-frontend
+
+# install deps
+`cd tsfrontend && npm install`
+
+# launch dev server
+`npm run dev`
+(accept vs code prompt to open port, if applicable)
